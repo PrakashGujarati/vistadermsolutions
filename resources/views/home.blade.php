@@ -631,11 +631,11 @@ color: #696969;
                                         <div class="box-large-image__midea">
                                             <div class="images-midea">
                                                 <img src="{{ asset('assets/img/team/team-1.jpg') }}" class="img-fluid" alt="">
-                                                <div class="button-wrapper">
+                                               {{-- <div class="button-wrapper">
                                                     <div class="btn tm-button">
                                                         <span class="button-text">Visionary Dermatologist, practicing since last 38 years, who thoroughly understands the pains and gains of a dermatologist.</span>
                                                     </div>
-                                                </div>
+											   </div>--}}
                                                 <div class="heading-wrap">
                                                     <h5 class="heading">Dr Janak Thakkar </h5>
                                                 </div>
@@ -657,11 +657,11 @@ color: #696969;
                                         <div class="box-large-image__midea">
                                             <div class="images-midea">
                                                 <img src="{{ asset('assets/img/team/team-2.jpg') }}" class="img-fluid" alt="">
-                                                <div class="button-wrapper">
+                                                {{--<div class="button-wrapper">
                                                     <div class="btn tm-button">
                                                         <span class="button-text">Young futuristic Dermatologist with the enthusiasm and passion for technology, practicing with Dr Janak Thakkar and well aware about current industry needs. </span>
                                                     </div>
-                                                </div>
+                                                </div>--}}
                                                 <div class="heading-wrap">
                                                     <h5 class="heading">Dr Smit Thakkar  </h5>
                                                 </div>
@@ -683,11 +683,11 @@ color: #696969;
                                         <div class="box-large-image__midea">
                                             <div class="images-midea">
                                                 <img src="{{ asset('assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
-                                                <div class="button-wrapper">
+													{{--<div class="button-wrapper">
                                                     <div class="btn tm-button">
                                                         <span class="button-text">A serial entrepreneur and practice management expert, who has more than 27 years of experience of marketing exclusively in dermatology.</span>
                                                     </div>
-                                                </div>
+													</div>--}}
                                                 <div class="heading-wrap">
                                                     <h5 class="heading">Mr Ilesh Khakhar</h5>
                                                 </div>
@@ -709,11 +709,11 @@ color: #696969;
                                         <div class="box-large-image__midea">
                                             <div class="images-midea">
                                                 <img src="{{ asset('assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
-                                                <div class="button-wrapper">
+                                                {{--<div class="button-wrapper">
                                                     <div class="btn tm-button">
                                                         <span class="button-text">Young and enthusiastic software developer and designer with brilliant skills for computer languages, who has also served international clients.</span>
                                                     </div>
-                                                </div>
+                                                </div>--}}
                                                 <div class="heading-wrap">
                                                     <h5 class="heading">Mr Prakash Gujarati  </h5>
                                                 </div>
