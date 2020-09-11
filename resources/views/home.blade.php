@@ -56,7 +56,7 @@ color: #696969;
     position: relative;
     background-repeat: no-repeat;
     background-position: center center;
-    padding: 100px 0;
+    padding: 140px 0;
 }
 .ht-box-icon.style-03 .icon-box-wrap
 {
@@ -68,11 +68,12 @@ color: #696969;
 }
 .swiper-width
 {
-    width: 250px !important;
+    width: 400px !important;
 }
-.grid-wrapper
+.main-icon
 {
-    height: 454px;
+    font-size: 80px;
+    color: #3685f1;
 }
 </style>
 @endsection
@@ -90,7 +91,7 @@ color: #696969;
                     <h5>DERMATOLOGISTS</h5>
                     <p>The first ever dedicated software for dermatologists to manage their <br>practice. Powerful yet easy to use EMR with CRM software developed by <br>dermatologists. </p>
                     <div class="hero-button  mt-30">
-                        <a href="#" class="ht-btn ht-btn-sm">Try free for 15 days</a>
+                        <a href="/contact" class="ht-btn ht-btn-sm">Try free for 15 days</a>
                     </div>
                 </div>
             </div>
@@ -107,42 +108,20 @@ color: #696969;
 </div>
 <!--============ Infotechno Hero End ============-->
 
-<div class="our-company-history section-space--ptb_100" style="margin-top: -50px">
-    <div class="container-fluid">
-        <div class="grid-wrapper">
-            <div class="line line-1"></div>
-            <div class="line line-2"></div>
-            <div class="line line-3"></div>
-            <div class="line line-4"></div>
-        </div>
-
-        <div class="row align-items-center">
-
-            <div class="col-lg-6">
-                <div class="rv-video-section">
-                    <div class="main-video-box video-popup">
-                        <a href="{{ asset('assets/promo/promo.mp4') }}" class="video-link  mt-30">
-                            {{-- <a href="https://www.youtube.com/watch?v=9No-FiEInLA" class="video-link  mt-30"> --}}
-                            <div class="single-popup-wrap">
-                                <img class="img-fluid border-radus-5" src="{{ asset('assets/full-width-img/doctor.jpg') }}" alt="">
-                                <div class="ht-popup-video video-button">
-                                    <div class="video-mark">
-                                        <div class="wave-pulse wave-pulse-1"></div>
-                                        <div class="wave-pulse wave-pulse-2"></div>
-                                    </div>
-                                    <div class="video-button__two">
-                                        <div class="video-play">
-                                            <span class="video-play-icon"></span>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </a>
+<div class="our-company-history section-space--ptb_100 mt-5">
+    <div class="container mb-20">
+        <div class="swiper-container service-slider__project-active">
+            <div class="row">
+                <div class="col-lg-6">
+                    <div class="service-project-slide-info" >
+                         <video  class="img-fluid border-radus-5" controls>
+                            <source src="{{ asset('assets/promo/promo.mp4') }}" type="video/mp4" class="video-link  mt-30">
+                        </video>
                     </div>
                 </div>
-            </div>
-            <div class="col-lg-6">
-                <div class="faq-custom-col">
+
+                <div class="col-lg-6">
+                     <div class="faq-custom-col float-left">
                     <div class="section-title-wrap">
                         <h3 class="heading">Designed exclusively for  <br> dermatologists.<br></h3><h5><span class="text-color-primary">Most Versatile and Powerful EMR with CRM for professionals.</span></h5>
 
@@ -150,12 +129,17 @@ color: #696969;
                         
                     </div>
                 </div>
+                </div>
             </div>
         </div>
     </div>
 </div>
 
-<div class="" style="margin-top: -87px">
+
+
+
+
+<div class="">
     <div class="container mb-20">
         <div class="swiper-container service-slider__project-active">
             <div class="row">
@@ -188,37 +172,39 @@ color: #696969;
             <div class="col-lg-4 col-md-6 wow move-up mt-5 ">
                 <center>
                     <h5 class="heading">Offline Mode</h5><br>
-                    <img src="{{ asset('assets/images/icons/ezgif.com-webp-to-png.png') }}" width="80" height="80" ><br><br>
+                    <i class="material-icons main-icon">cloud_off</i>
+                    {{-- <img src="{{ asset('assets/images/icons/ezgif.com-webp-to-png.png') }}" width="80" height="80" > --}}<br><br>
 
                 </center>
             </div>
             <div class="col-lg-4 col-md-6 wow move-up mt-5">
                 <center>
                     <h5 class="heading">Data Security</h5><br>
-                    <img src="{{ asset('assets/images/icons/padlock.png') }}" width="80" height="80"><br><br>
+                    <i  class="fas fa-user-shield main-icon" ></i>
+                    {{-- <img src="{{ asset('assets/images/icons/padlock.png') }}" width="80" height="80"> --}}<br><br>
                 </center>
             </div>
             <div class="col-lg-4 col-md-6 wow move-up mt-5">
                 <center>
                     <h5 class="heading">Training & Support</h5><br>
-                    <img src="{{ asset('assets/images/icons/customer-service.png') }}" width="80" height="80"><br><br>
+                    <i  class="fas fa-users main-icon" ></i>
+                    {{-- <img src="{{ asset('assets/images/icons/customer-service.png') }}" width="80" height="80"> --}}<br><br>
 
                 </center>
             </div>
         </div>
         <div class="col-lg-12">
             <div class="feature-list-button-box text-center">
-
-
-                
-                    <p class="text" >    The first ever web-based practice management software in offline mode.<br>
+                    <p class="text" >
+                        the main crucial aspects for any practice management software
+                    <br> The first ever web-based practice management software in offline mode.<br>
                            No cloud or third-party server attached.<br>
                            Your data in your local system only.<br>
                            Never lose connection to your data, work seamlessly.<br>
                            Dedicated team to provide you seamless support & training.<br>
                     </p>
 
-                    <a href="#" class="ht-btn ht-btn-sm">BOOK YOUR DEMO NOW</a>
+                    <a href="pricing" class="ht-btn ht-btn-sm">BOOK YOUR DEMO NOW</a>
                 </div>
             </div>   
         </div>
@@ -252,7 +238,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features#" title="">
+                                        <a href="features" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fa fa-coffee features-icon"></i>
@@ -689,14 +675,14 @@ color: #696969;
                                                     </div>
 													</div>--}}
                                                 <div class="heading-wrap">
-                                                    <h5 class="heading">Mr Ilesh Khakhar</h5>
+                                                    <h5 class="heading">Dr Ilesh Khakhkhar</h5>
                                                 </div>
 
                                             </div>
                                         </div>
 
                                         <div class="box-large-image__content mt-30 text-center">
-                                            <p><b>Mr Ilesh Khakhar</b><br>Serial Entrepreneur</p>
+                                            <p><b>Ilesh Khakhkhar</b><br>Dr Serial Entrepreneur</p>
                                         </div>
                                     </div>
                                 </a>
@@ -715,14 +701,14 @@ color: #696969;
                                                     </div>
                                                 </div>--}}
                                                 <div class="heading-wrap">
-                                                    <h5 class="heading">Mr Prakash Gujarati  </h5>
+                                                    <h5 class="heading">Dr Prakash Gujarati  </h5>
                                                 </div>
 
                                             </div>
                                         </div>
 
                                         <div class="box-large-image__content mt-30 text-center">
-                                            <p><b>Mr Prakash Gujarati </b><br>Software Engineer (Ph.D.) </p>
+                                            <p><b>Dr Prakash Gujarati </b><br>Software Engineer (Ph.D.) </p>
                                         </div>
                                     </div>
                                 </a>
@@ -746,7 +732,7 @@ color: #696969;
                     <div class="col-lg-12">
                         <div class="section-title-wrap text-center section-space--mb_40">
                             
-                            <h3 class="heading"><span class="text-color-primary">What Our Doctors Have to Say</span></h3>
+                            <h3 class="heading"><span class="text-color-primary">What Our Clients Have to Say</span></h3>
                         </div>
                         <div class="testimonial-slider">
                             <div class="swiper-container testimonial-slider__container">
@@ -874,7 +860,7 @@ color: #696969;
         <div class="section-title-wrap text-center section-space--mb_40">
             <h3 class="heading"><span class="text-color-primary">Experience Now the power of dedicated derma-software</span></h3><h6>& see how VistaDerm can help you improve your practice.</h6>
             <br>
-            <a href="#" class="ht-btn ht-btn-sm">BOOK YOUR DEMO NOW</a>
+            <a href="/pricing" class="ht-btn ht-btn-sm">BOOK YOUR DEMO NOW</a>
 
         </div>
     </div>

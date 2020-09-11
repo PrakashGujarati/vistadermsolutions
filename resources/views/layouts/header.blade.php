@@ -42,11 +42,9 @@
                                                             <a href="contact"><span>Contact</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="#"><span>Request</span></a>
+                                                            <a href="#"><span>Request Demo</span></a>
                                                         </li>
-                                                        <li>
-                                                            <a href="#"><span>Demo</span></a>
-                                                        </li>
+                                                        
                                                     </ul>
                                                 </nav>
                                             </div>
@@ -61,8 +59,7 @@
                                 <div class="header-right-inner" id="hidden-icon-wrapper">
                                     <div class="header-search-form default-search">
                                         <form action="#" class="search-form-top">
-                                            <button class="ht-btn ht-btn-xs ht-btn--outline">Get Started</button>
-                                            {{-- <button class=" ht-btn ht-btn-xs btn btn--gradient">Login</button> --}}
+                                            <button class="ht-btn ht-btn-xs ht-btn--outline">Login</button>&nbsp&nbsp
                                         </form>
                                     </div>
                                 </div>

@@ -18,6 +18,7 @@ Features
 .ht-tab-menu li a
 {
 	line-height: 2.3;
+	height: 103px;
 }
 .features-icon
 {
@@ -119,7 +120,7 @@ Features
 						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
 								<div class="col-lg-12 text-center">
-									<h3 class="heading"> <span class="text-color-primary">VistaDerm  Notes and Treatment Records</span></h3>
+									<h3 class="heading"> <span class="text-color-primary">Appointments</span></h3>
 									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
 							</div><br>
@@ -132,405 +133,129 @@ Features
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_02" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_60">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-
-								<div class="col-lg-4 col-md-6">
-									<!-- ht-box-icon Start -->
-									<a href="#" class="ht-large-box-images style-04">
-										<div class="large-image-box">
-											<div class="box-image">
-												<div class="default-image">
-													<img class="img-fluid" src="assets/images/box-image/blog-01-480x298.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h5 class="heading">Quality Assurance System</h5>
-												<div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-												</div>
-												<div href="#" class="box-images-arrow">
-													<span class="button-text">Discover now</span>
-													<i class="far fa-long-arrow-right"></i>
-												</div>
-											</div>
-										</div>
-									</a>
-									<!-- ht-box-icon End -->
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">EMR / Patient Treatment Records</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-4 col-md-6">
-									<!-- ht-box-icon Start -->
-									<a href="#" class="ht-large-box-images style-04">
-										<div class="large-image-box">
-											<div class="box-image">
-												<div class="default-image">
-													<img class="img-fluid" src="assets/images/box-image/mitech-home-infotechno-box-large-image-03-480x298.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h5 class="heading">Highly Professional Staffs</h5>
-												<div class="text">Having obtained the official & formal training in IT technology and technical fields, our staffs know best.
-												</div>
-												<div href="#" class="box-images-arrow">
-													<span class="button-text">Discover now</span>
-													<i class="far fa-long-arrow-right"></i>
-												</div>
-											</div>
-										</div>
-									</a>
-									<!-- ht-box-icon End -->
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								<div class="col-lg-4 col-md-6">
-									<!-- ht-box-icon Start -->
-									<a href="#" class="ht-large-box-images style-04">
-										<div class="large-image-box">
-											<div class="box-image">
-												<div class="default-image">
-													<img class="img-fluid" src="assets/images/box-image/mitech-home-infotechno-box-large-image-02-480x298.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h5 class="heading">Info Security Management</h5>
-												<div class="text">At Mitech, we have a holistic and integrated approach towards core modernization to experience technological evolution.
-												</div>
-												<div href="#" class="box-images-arrow">
-													<span class="button-text">Discover now</span>
-													<i class="far fa-long-arrow-right"></i>
-												</div>
-											</div>
-										</div>
-									</a>
-									<!-- ht-box-icon End -->
-								</div>
-
-
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_03" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_60 brand-logo-slider__one">
-							<div class="modern-grid--6">
-
-
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-01.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-01-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
+						<div class="tab-history-wrap section-space--mt_40">
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">E-Prescription</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-02.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-02-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-03.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-03-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-04.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-04-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-05.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-05-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-06.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-06-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-07.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-07-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-08.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-08-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-								<div class="brand-logo brand-logo--slider">
-									<a href="#">
-										<div class="brand-logo__image">
-											<img src="assets/images/brand/mitech-client-logo-09.png" class="img-fluid" alt="">
-										</div>
-										<div class="brand-logo__image-hover">
-											<img src="assets/images/brand/mitech-client-logo-09-hover.png" class="img-fluid" alt="">
-										</div>
-									</a>
-								</div>
-
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_04" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Invoice & Billing</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_05" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Procedure & Package Management</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_06" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Laboratory Module</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_07" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Photos Management</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_08" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Marketing & Campaigns</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>
 
 					<div class="tab-pane fade" id="tab_list_09" role="tabpanel">
-						<div class="tab-history-wrap section-space--mt_20">
+						<div class="tab-history-wrap section-space--mt_40">
 							<div class="row">
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-01-161x110.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading"> Top Training Companies 2016 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+								<div class="col-lg-12 text-center">
+									<h3 class="heading"> <span class="text-color-primary">Expense Management</span></h3>
+									<h7>Record complete interaction with patient in details. From complaint, to observations to investigations to<br> diagnosis & treatment. Store in depth clinical notes with extreme ease. </h7>
 								</div>
-								<div class="col-lg-6">
-									<div class="ht-box-images style-08 move-up animate">
-										<div class="image-box-wrap">
-											<div class="box-image">
-												<div class="image">
-													<img src="assets/images/award/mitech-company-award-02-161x116.jpg" alt="">
-												</div>
-											</div>
-											<div class="content">
-												<h6 class="heading">CIO Big Data 100 </h6>
-												<div class="text">More than 40 years ago, our company’s namesake, LineThemes, pioneered a revolutionary sales training program for businesses of every size.</div>
-											</div>
-										</div>
-									</div>
+							</div><br>
+							<div class="row">
+								<div class="col-lg-12 text-center">
+									<img src="{{ asset('assets/images/gallery/treatment_record_big.png') }}" alt="" style="width: 60%">
 								</div>
-								
 							</div>
 						</div>
 					</div>

@@ -37,5 +37,9 @@ Route::get('contact', function () {
     return view('contact');
 });
 
+Route::get('icon', function () {
+    return view('layouts.icon');
+});
+
 
 

@@ -10,6 +10,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1">
         @include('layouts.style')
         @yield('css')
+        <style type="text/css" media="screen">
+            
+        </style>
 </head>
 <body>
  <!--====================  header area ====================-->
@@ -24,11 +27,19 @@
 <!--====================  End of footer area  ====================-->
 
 <!--====================  scroll top ====================-->
-    <a href="#" class="scroll-top" id="scroll-top">
+    {{-- <a href="#" class="scroll-top" id="scroll-top">
         <i class="arrow-top fal fa-long-arrow-up"></i>
         <i class="arrow-bottom fal fa-long-arrow-up"></i>
-    </a>
+    </a> --}}
+    {{-- <a href="#" class="scroll-top" id="scroll-top">
+        <i class="fas fa-comment"></i>
+        <i class="fas fa-comment"></i>
+    </a> --}}
+    @include('layouts.chatting-icon')
+
+
 <!--====================  End of scroll top  ====================-->
+
 
 <!--====================  mobile menu overlay ====================-->
     @include('layouts.mobile_menu')

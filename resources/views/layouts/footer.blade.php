@@ -7,9 +7,9 @@
                                 <img src="{{ asset('assets/images/logo/logo.png') }} " style="width: 200px;" class="img-fluid" alt="">
                             </div>
                             <ul class="footer-widget__list">
-                                <li>58 Howard Street #2 San Francisco, CA 941</li>
-                                <li><a href="mailto:contact@aeroland.com" class="hover-style-link">contact@aeroland.com</a></li>
-                                <li><a href="tel:123344556" class="hover-style-link text-black font-weight--bold">(+68)1221 09876</a></li>
+                                <li>B/407 – Imperial Heights, <br>Opp. Big Bazzar, 150ft Ring Road,<br> Rajkot. (Guj., India)</li>
+                                <li><a href="#" class="hover-style-link">info@vistaderm.in</a></li>
+                                <li><a href="tel:123344556" class="hover-style-link text-black font-weight--bold">+91 98585 98484</a></li>
                                 {{-- <li><a href="https://hasthemes.com/" class="hover-style-link text-color-primary">www.mitech.xperts.com</a></li> --}}
                             </ul>
                         </div>
@@ -56,22 +56,22 @@
                             <ul class="list ht-social-networks solid-rounded-icon">
 
                                 <li class="item">
-                                    <a href="https://twitter.com/" target="_blank" aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="#"  aria-label="Twitter" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-twitter link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://facebook.com/" target="_blank" aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="#"  aria-label="Facebook" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-facebook-f link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://instagram.com/" target="_blank" aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="#"  aria-label="Instagram" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-instagram link-icon"></i>
                                     </a>
                                 </li>
                                 <li class="item">
-                                    <a href="https://linkedin.com/" target="_blank" aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
+                                    <a href="#"  aria-label="Linkedin" class="social-link hint--bounce hint--top hint--primary">
                                         <i class="fab fa-linkedin link-icon"></i>
                                     </a>
                                 </li>

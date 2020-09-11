@@ -41,7 +41,7 @@ Pricing
 .switch {
   position: relative;
   display: inline-block;
-  width: 102px;
+  width: 110px;
   height: 34px;
 }
 
@@ -82,7 +82,7 @@ input:focus + .slider {
 input:checked + .slider:before {
   -webkit-transform: translateX(55px);
   -ms-transform: translateX(55px);
-  transform: translateX(67px);
+  transform: translateX(76px);
 }
 
 /*------ ADDED CSS ---------*/
@@ -138,11 +138,11 @@ input:checked + .slider .off
   <span class="slider"></span>
 </label> --}}
 
-<label class="switch">
+<label class="switch mt-5">
     <input type="checkbox" id="togBtn" class="coupon_question" name="coupon_question" value="1" onchange="valueChanged()">
     <div class="slider round">
-        <span class="on">On Line</span>
-        <span class="off">&nbspOff Line</span>
+        <span class="on">ONLINE</span>
+        <span class="off">&nbspOFFLINE</span>
     </div>
 </label>
 
@@ -264,9 +264,9 @@ input:checked + .slider .off
                                         <img src="assets/images/icons/mitech-pricing-box-icon-03-90x90.png" class="img-fluid" alt="">
                                     </div>
                                     <div class="pricing-table__price-wrap">
-                                        {{-- <h6 class="currency">₹</h6> --}}
-                                        <h6 >GET A QUOTE</h6>
-                                        
+                                        {{-- <h6 class="currency" >GET A QUOTE</h6> --}}
+                                        <p style="font-size: 23px;width: 300;color: #333">GET A QUOTE</p>
+                                        {{-- <h6>GET A QUOTE</h6> --}}
                                     </div>
                                 </div>
                                 <div class="pricing-table__body">
@@ -402,7 +402,7 @@ input:checked + .slider .off
                         <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table wow move-up package">
                             <div class="pricing-table__inner packagediv">
                                 <div class="pricing-table__header">
-                                    <h4 class="sub-title">ENTERPRISE<br><span class="sub-title-txt">9+ USERS</span></h4>
+                                    <h4 class="sub-title">ENTERPRISE<br><span class="sub-title-txt">UNLIMITED USERS</span></h4>
                                     <div class="pricing-table__image">
                                         <img src="assets/images/icons/mitech-pricing-box-icon-03-90x90.png" class="img-fluid" alt="">
                                     </div>

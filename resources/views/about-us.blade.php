@@ -62,30 +62,15 @@ color: #696969;
                     </div>
                 </div>
 
-                <div class="cybersecurity-about-box section-space--pb_70">
-                    <div class="row">
-                        <div class="col-lg-4 offset-lg-1">
-                            <div class="modern-number-01">
-                                <h2 class="heading  mr-5"><span class="mark-text">38</span>Years’ Experience in IT</h2>
-                                <h6 class="heading mt-30">More About Our Success Stories</h6>
-                            </div>
-                        </div>
-
-                        <div class="col-lg-5 offset-lg-1">
-                            <div class="cybersecurity-about-text">
-                                <div class="text">The core team behind VISTADERM had a singular vision while crafting this software – to ensures that each Dermatologist is equipped with this cutting-edge software with features to manage the administrative, financial, and functional aspects of a derma-clinic.
-                
-                
-                                </div>
-                                
-                            </div>
-                        </div>
-                    </div>
-                </div>
+           
 
                 
                     <div class="row">
                         <div class="col-lg-12">
+                            <div class="cybersecurity-about-text">
+                                <div class="text">The core team behind VISTADERM had a singular vision while crafting this software – to ensures that each Dermatologist is equipped with this cutting-edge software with features to manage the administrative, financial, and functional aspects of a derma-clinic.
+                                </div>
+                            </div>
                             <div class="text">  
                                     Designed with a range of specialisms, it provides a comprehensive list of functionalities, including a customisable dashboard, ePrescribing, a fully-integrated patient portal, and interoperable practice management that can massively increase practice revenue.<br>
                                 We commit to providing complete customer service and training. Our objective is to keep evolving and improvising the software through continuous research and development to suit your customised needs and meeting future market trends. 
@@ -108,7 +93,7 @@ color: #696969;
                         <!-- section-title-wrap Start -->
                         <div class="section-title-wrap text-center section-space--mb_30">
 
-                            <h3 class="heading"> <span class="text-color-primary">VISTADERM TEAM</span></h3>
+                            <h3 class="heading"> <span class="text-color-primary">VISTADERM TEAM</span></h3><br>
                             <div class="text text-left">
                                 Experts from three different industries have come together to build this powerful software; VISTADERM has the dermatology insights from the veteran Dermatologist Dr. Janak Thakkar, the millennial perceptions of Dr. Smit Thakkar, holistic knowledge of the Derma-field at each layer by Mr. Ilesh Khakhkhar, and the IT acuities of the software Skillman, Mr. Prakash Gujarati.  A combination of these masterminds has resulted in VISTADERM - A 360-degree solution for Derma-practitioners… A masterpiece software par excellence!
                             </div>
@@ -170,7 +155,7 @@ color: #696969;
                                                     	<img src="{{ asset('assets/img/team/team-3.jpg') }}" class="img-fluid" alt="">
                                                 	</div>
                                                     <h5 class="heading">
-                                                    	Mr Ilesh Khakhar
+                                                    	Dr Ilesh Khakhkhar
                                                     	<br>
                                                         <span class="description-txt">
                                                         	is a successful entrepreneur and practice management expert, who has more than 27 years of marketing experience in dermatology. He is a design-driven and technology-focused brand and marketing strategist with sharp insight into digital marketing. His vision helped lead the strategy, design, and growth of VISTADERM. He believes that healthcare technology is entering a new era of innovation and is passionate about making transformative technology easy to access, and enjoyable to use for the Derma fraternity. 
@@ -191,7 +176,7 @@ color: #696969;
                                                     	<img src="{{ asset('assets/img/team/team-4.jpg') }}" class="img-fluid" alt="">
                                                 	</div>
                                                     <h5 class="heading">
-                                                        Mr Prakash Gujarati
+                                                         Dr Prakash Gujarati
                                                         <br>
                                                         <span class="description-txt">
                                                         	is a young and dynamic software developer who has a vast experience in the IT field believes that inspiration and a healthy dose of constructive dissatisfaction are keys to successful products and technology innovation. He trusts that great products are created through a keen customer focus, ground-breaking ideas, precise engineering, and efficient execution. 
@@ -213,40 +198,6 @@ color: #696969;
 
 
        
-        <!--=========== fun fact Wrapper Start ==========-->
-        <div class="fun-fact-wrapper bg-theme-default section-space--pb_30 section-space--pt_60">
-            <div class="container">
-                <div class="row">
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">120</div>
-                            <h6 class="fun-fact__text">Happy clients</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">32</div>
-                            <h6 class="fun-fact__text">Finished projects</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">73</div>
-                            <h6 class="fun-fact__text">Skilled Experts</h6>
-                        </div>
-                    </div>
-                    <div class="col-md-3 col-sm-6 wow move-up">
-                        <div class="fun-fact--two text-center">
-                            <div class="fun-fact__count counter">318</div>
-                            <h6 class="fun-fact__text">Media Posts</h6>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-       
-      
-        <!--============ Contact Us Area End =================-->
 
     </div>
 @endsection
