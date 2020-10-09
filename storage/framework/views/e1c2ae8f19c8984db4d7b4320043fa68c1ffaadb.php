@@ -11,6 +11,15 @@
         <?php echo $__env->make('layouts.style', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?>
         <?php echo $__env->yieldContent('css'); ?>
         <style type="text/css" media="screen">
+            .section-space--ptb_80
+            {
+                padding-top:45px;
+                padding-bottom:15px;
+            }
+            .section-space--pb_30 
+            {
+                padding-bottom:1px;
+            }
             
         </style>
 </head>

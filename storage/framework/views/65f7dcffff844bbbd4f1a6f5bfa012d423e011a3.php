@@ -8,8 +8,8 @@
 
                             <!-- brand logo -->
                             <div class="header__logo">
-                                <a href="index.html">
-                                    <img src="<?php echo e(asset('assets/images/logo/logo.png')); ?> " class="img-fluid" alt="">
+                                <a href="<?php echo e(url('/')); ?>">
+                                    <img src="<?php echo e(asset('assets/images/logo/logo.png')); ?>" style="width: 90px;" class="img-fluid" alt="">
                                 </a>
                             </div>
 
@@ -26,20 +26,20 @@
                                                             <a href="/"><span>Home</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="about"><span>About us</span></a>
+                                                            <a href="/about"><span>About us</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="features"><span>Features</span></a>
+                                                            <a href="<?php echo e(route('features.show','Appointments')); ?>"><span>Features</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="pricing"><span>Pricing</span></a>
+                                                            <a href="/pricing"><span>Pricing</span></a>
                                                            
                                                         </li>
                                                         <li>
-                                                            <a href="#"><span>Blogs</span></a>
+                                                            <a href="/blog"><span>Blogs</span></a>
                                                         </li>
                                                         <li>
-                                                            <a href="contact"><span>Contact</span></a>
+                                                            <a href="/contact"><span>Contact</span></a>
                                                         </li>
                                                         <li>
                                                             <a href="#"><span>Request Demo</span></a>

@@ -75,6 +75,12 @@ color: #696969;
     font-size: 80px;
     color: #3685f1;
 }
+.drtext: #333333;
+    font-family: "CerebriSans";
+    font-weight: 700;
+    margin-top: 0;
+    margin-bottom: 0;
+    line-height: 1.41;
 </style>
 @endsection
 
@@ -145,10 +151,14 @@ color: #696969;
             <div class="row">
                 <div class="col-lg-6">
                     <div class="service-project-slide-info" style="margin-top: 8rem">
-                        <span class="text" style="font-size: 20px;"><b>
+                         <h5 class="drtext">Who would understand your <br> pains better than a <span class="text-color-primary">dermatologist?</span> </h5><br>
+
+                         <h5 class="drtext">Tried & tested in the practical environment of a <span class="text-color-primary">derma-VistaDerm..</span> </h5>
+
+                        {{-- <span class="text" style="font-size: 20px;"><b>
                             Who would understand your pains better than a dermatologist?<br><br>
                             Tried & tested in the practical environment of a derma-VistaDerm.</b>
-                        </span>
+                        </span> --}}
                     </div>
                 </div>
 
@@ -238,7 +248,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Appointments') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fa fa-coffee features-icon"></i>
@@ -256,7 +266,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','EMR') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-desktop features-icon"></i>
@@ -276,7 +286,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','E-Prescription') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-ghost features-icon"></i>
@@ -294,7 +304,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Invoice_Billing') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-money-bill-alt features-icon"></i>
@@ -315,7 +325,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Procedure_&_Package_Management') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-paper-plane features-icon"></i>
@@ -333,6 +343,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
+                                        <a href="{{ route('features.show','Expense_Management') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-desktop features-icon"></i>
@@ -341,6 +352,7 @@ color: #696969;
                                                 Expense Management
                                             </h5>
                                         </div>
+                                        </a>
                                     </div>
                                 </div>
                             </div>   
@@ -354,7 +366,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Photos_Management') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fa fa-tasks features-icon"></i>
@@ -372,7 +384,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','marketing_&_Campaigns') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-bullhorn features-icon"></i>
@@ -392,7 +404,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Laboratory_Module') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fa fa-camera features-icon"></i>
@@ -411,7 +423,7 @@ color: #696969;
                             <div class="grid-item animate">
                                 <div class="ht-box-icon style-03">
                                     <div class="icon-box-wrap">
-                                        <a href="features" title="">
+                                        <a href="{{ route('features.show','Pharmacy_Module') }}" title="">
                                         <div class="content-header">
                                             <div class="icon">
                                                 <i class="fas fa-first-aid features-icon"></i>
@@ -682,7 +694,7 @@ color: #696969;
                                         </div>
 
                                         <div class="box-large-image__content mt-30 text-center">
-                                            <p><b>Ilesh Khakhkhar</b><br>Dr Serial Entrepreneur</p>
+                                            <p><b>Dr Ilesh Khakhkhar</b><br>Serial Entrepreneur</p>
                                         </div>
                                     </div>
                                 </a>

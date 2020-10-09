@@ -37,10 +37,6 @@ Features
 
 <?php $__env->startSection('content'); ?>
 
-
-
-
-
 <div class="tabs-wrapper bg-gray section-space--ptb_100">
 	<div class="container">
 		<div class="row">
@@ -76,7 +72,7 @@ Features
 							</a>
 						</li>
 						<li class="tab__item nav-item ">
-							<a class="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_04" role="tab" aria-selected="false">
+							<a class="nav-link" id="nav-tab4" data-toggle="tab" href="#tab_list_04" role="tab" aria-selected="false">
 								<i class="fas fa-money-bill-alt features-icon"></i><br>
 								<span>Billing</span>
 							</a>
@@ -88,25 +84,25 @@ Features
 							</a>
 						</li>
 						<li class="tab__item nav-item ">
-							<a class="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_06" role="tab" aria-selected="false">
+							<a class="nav-link" id="nav-tab6" data-toggle="tab" href="#tab_list_06" role="tab" aria-selected="false">
 									<i class="fa fa-camera features-icon"></i><br>
 								<span>Laboratory Module</span>
 							</a>
 						</li>
 						<li class="tab__item nav-item ">
-							<a class="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_07" role="tab" aria-selected="false">
+							<a class="nav-link" id="nav-tab7" data-toggle="tab" href="#tab_list_07" role="tab" aria-selected="false">
 								<i class="fa fa-tasks features-icon"></i><br>
 								<span>Photos Management</span>
 							</a>
 						</li>
 						<li class="tab__item nav-item ">
-							<a class="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_08" role="tab" aria-selected="false">
+							<a class="nav-link" id="nav-tab8" data-toggle="tab" href="#tab_list_08" role="tab" aria-selected="false">
 								<i class="fas fa-bullhorn features-icon"></i><br>
 								<span>Marketing Campaigns</span>
 							</a>
 						</li>
 						<li class="tab__item nav-item ">
-							<a class="nav-link" id="nav-tab5" data-toggle="tab" href="#tab_list_09" role="tab" aria-selected="false">
+							<a class="nav-link" id="nav-tab9" data-toggle="tab" href="#tab_list_09" role="tab" aria-selected="false">
 								<i class="fas fa-desktop features-icon"></i><br>
 								<span>Expense Management</span>
 							</a>
@@ -293,6 +289,88 @@ Features
 </div>
 
 
+<input type="hidden" id="id" value="<?php echo e($id); ?>">
+
+<?php $__env->stopSection(); ?>
+<?php $__env->startSection('script'); ?>
+<script type="text/javascript">
+	
+$( document ).ready(function() {
+   var value = $('#id').val()
+
+ 
+  
+   if(value == 'EMR')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab2').click();
+   	});	
+   }
+   if(value == 'E-Prescription')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab3').click();
+   	});	
+   }
+   if(value == 'Invoice_Billing')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab4').click();
+   	});	
+   }
+   if(value == 'Procedure_&_Package_Management')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab5').click();
+   	});	
+   }
+   if(value == 'Expense_Management')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab9').click();
+   	});	
+   }
+   if(value == 'Photos_Management')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab7').click();
+   	});	
+   }
+   if(value == 'marketing_&_Campaigns')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab8').click();
+   	});	
+   }
+   if(value == 'Laboratory_Module')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab6').click();
+   	});	
+   }
+   /*if(value == 'Pharmacy_Module')
+   {
+   	jQuery(function(){
+   		jQuery('#nav-tab6').click();
+   	});	
+   }*/
+   
+   
+
+   
+
+
+
+   
+
+});
+
+
+
+
+
+
+</script>
 <?php $__env->stopSection(); ?>
 
 <?php echo $__env->make('layouts.app', \Illuminate\Support\Arr::except(get_defined_vars(), ['__data', '__path']))->render(); ?><?php /**PATH C:\xampp\htdocs\doctors\vistadermsolutions\resources\views/features.blade.php ENDPATH**/ ?>

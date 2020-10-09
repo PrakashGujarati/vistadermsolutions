@@ -24,9 +24,12 @@ Route::get('/', function () {
 Route::get('about', function () {
     return view('about-us');
 });
-Route::get('features', function () {
+/*Route::get('features/{id?}', function () {
     return view('features');
-});
+});*/
+
+ Route::resource('features', 'FeatureController');
+
 
 Route::get('pricing', function () {
     return view('pricing');
@@ -42,4 +45,15 @@ Route::get('icon', function () {
 });
 
 
+Route::get('blog', function () {
+    return view('blog');
+});
 
+
+Route::get('blog_details', function () {
+    return view('blog_details');
+});
+
+
+
+ 

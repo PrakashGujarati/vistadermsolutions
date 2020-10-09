@@ -4,7 +4,7 @@
                     <div class="row footer-widget-wrapper">
                         <div class="col-lg-4 col-md-6 col-sm-6 footer-widget">
                             <div class="footer-widget__logo mb-30">
-                                <img src="{{ asset('assets/images/logo/logo.png') }} " style="width: 200px;" class="img-fluid" alt="">
+                                <img src="{{ asset('assets/images/logo/logo.png') }} " style="width: 150px;" class="img-fluid" alt="">
                             </div>
                             <ul class="footer-widget__list">
                                 <li>B/407 – Imperial Heights, <br>Opp. Big Bazzar, 150ft Ring Road,<br> Rajkot. (Guj., India)</li>
@@ -16,17 +16,17 @@
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Features</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="#" class="hover-style-link">Appointments</a></li>
-                                <li><a href="#" class="hover-style-link">Prescription</a></li>
-                                <li><a href="#" class="hover-style-link">Billing</a></li>
+                                <li><a href="{{ route('features.show','Appointments') }}" class="hover-style-link">Appointments</a></li>
+                                <li><a href="{{ route('features.show','E-Prescription') }}" class="hover-style-link">Prescription</a></li>
+                                <li><a href="{{ route('features.show','Invoice_Billing') }}" class="hover-style-link">Billing</a></li>
                                 <li><a href="#" class="hover-style-link">Reports & Analysis</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">
                             <h6 class="footer-widget__title mb-20">Company</h6>
                             <ul class="footer-widget__list">
-                                <li><a href="#" class="hover-style-link">Blog</a></li>
-                                <li><a href="#" class="hover-style-link">Contact Us</a></li>
+                                <li><a href="/blog" class="hover-style-link">Blog</a></li>
+                                <li><a href="/contact" class="hover-style-link">Contact Us</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-2 col-md-4 col-sm-6 footer-widget">

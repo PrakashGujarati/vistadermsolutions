@@ -33,7 +33,7 @@ Pricing
 }*/
 .packagediv
 {
-    height: 1114px;
+    height: 1370px;
 
 }
 
@@ -41,7 +41,7 @@ Pricing
 .switch {
   position: relative;
   display: inline-block;
-  width: 110px;
+  width: 120px;
   height: 34px;
 }
 
@@ -64,7 +64,7 @@ Pricing
   content: "";
   height: 26px;
   width: 26px;
-  left: 4px;
+  left: 8px;
   bottom: 4px;
   background-color: white;
   -webkit-transition: .4s;
@@ -99,7 +99,7 @@ input:checked + .slider:before {
   transform: translate(-50%,-50%);
   top: 50%;
   left: 50%;
-  font-size: 10px;
+  font-size: 11px;
   font-family: Verdana, sans-serif;
    font-weight: bold;
 }
@@ -165,13 +165,19 @@ input:checked + .slider .off
                         <div class="col-12 col-md-6 col-lg-4 col-xl-4 pricing-table wow move-up package">
                             <div class="pricing-table__inner packagediv">
                                 <div class="pricing-table__header">
-                                    <h4 class="sub-title">INDIVIDUAL<br><span class="sub-title-txt">1-3 DEVICES</span></h4>
+                                    <h4 class="sub-title">BASIC<br><span class="sub-title-txt">1-3 DEVICES</span></h4>
                                     <div class="pricing-table__image">
                                         <img src="assets/images/icons/mitech-pricing-box-icon-01-90x90.png" class="img-fluid" alt="">
                                     </div>
+                                    
                                     <div class="pricing-table__price-wrap">
                                         <h6 class="currency">₹</h6>
-                                        <h6 class="price">15999</h6>
+                                        <h6 class="price">20,000</h6>
+                                    </div>
+                                    <div class="pricing-table__price-wrap">
+                                        <p style="margin-top: 10px;"> <del> 25,000</del>&nbsp <b style="color:#388e3c;">20% off</b></p>
+                                    </div>
+                                    <div class="pricing-table__price-wrap">
                                     </div>
                                 </div>
                                 <div class="pricing-table__body">
@@ -182,35 +188,14 @@ input:checked + .slider .off
                                         <li>APPOINTMENT</li>
                                         <li>RECEPTION</li>
                                         <li>CONSULT</li>
-                                        <li>E-PRESCRIPTION</li>
+                                        <li>DIGITAL PRESCRIPTION</li>
                                         <li>IMAGES MODULE</li>
-                                        <li>QUICK PRE-POST</li>
-                                        <li>MEDICAL CERTIFICATES</li>
+                                        <li>PRE-POST COLLAGE GENERATION</li>
+                                        <li>MEDICAL CERTIFICATES GENERATION</li>
+                                        <li>ADVANCED BILLING</li>
                                         <li>REPORTS & ANALYTICS</li>
                                     </ul>
-                                    <ul class="wrong_txt text-left">
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> PROCEDURE MODULE
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> PACKAGE MANAGEMENT
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> CONSENT MODULE
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> LOYALTI CARDS
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> CRM PANEL
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> LABORATORY
-                                        </li>
-                                        <li>
-                                        	<i class="fa fa-times" aria-hidden="true"></i> ADVANCED BILLING
-                                        </li>
-                                    </ul>
+                                    
                                 </div>
                             </div>
                         </div>
@@ -224,10 +209,12 @@ input:checked + .slider .off
                                     <div class="pricing-table__image">
                                         <img src="assets/images/icons/mitech-pricing-box-icon-02-88x88.png" class="img-fluid" alt="">
                                     </div>
-                                    <div class="pricing-table__price-wrap">
+                                     <div class="pricing-table__price-wrap">
                                         <h6 class="currency">₹</h6>
-                                        <h6 class="price">25999</h6>
-                                        
+                                        <h6 class="price">32,000</h6>
+                                    </div>
+                                    <div class="pricing-table__price-wrap">
+                                        <p style="margin-top: 10px;"> <del> 40,000</del>&nbsp <b style="color:#388e3c;">20% off</b></p>
                                     </div>
                                 </div>
                                 <div class="pricing-table__body">
@@ -238,18 +225,24 @@ input:checked + .slider .off
                                         <li>APPOINTMENT</li>
                                         <li>RECEPTION</li>
                                         <li>CONSULT</li>
-                                        <li>E-PRESCRIPTION</li>
+                                        <li>DIGITAL PRESCRIPTION</li>
                                         <li>IMAGES MODULE</li>
-                                        <li>QUICK PRE-POST</li>
+                                        <li>PRE-POST COLLAGE GENERATION</li>
                                         <li>MEDICAL CERTIFICATES</li>
+                                        <li>ADVANCED BILLING</li>
                                         <li>REPORTS & ANALYTICS</li>
                                         <li>PROCEDURE MODULE</li>
 										<li>PACKAGE MANAGEMENT</li>
-										<li>CONSENT MODULE</li>
-										<li>LOYALTI CARDS</li>
-										<li>CRM PANEL</li>
-										<li>LABORATORY</li>
-										<li>ADVANCED BILLING</li>
+                                        <li>CONSENTS GENERATION</li>
+                                        <li>PHARMACY MODULE</li>
+                                        <li>WALLET FEATURE</li>
+                                        <li>CRM DESK</li>
+										<li>CUSTOMIZED EMAIL AND SMS TEMPLATES</li>
+                                        <li>TELE-CONSULTATION</li>
+                                        <li>DATA MIGRATION FROM YOUR EXISTING SOFTWARE</li>
+
+                                        
+										
                                     </ul>
                                 </div>
                             </div>
@@ -263,22 +256,34 @@ input:checked + .slider .off
                                     </div>
                                     <div class="pricing-table__price-wrap">
                                         
-                                        <p style="font-size: 23px;width: 300;color: #333">GET A QUOTE</p>
+                                        <p style="font-size: 26px;width: 300;color: #333">GET A QUOTE</p>
                                         
                                     </div>
                                 </div>
-                                <div class="pricing-table__body">
+                                <div class="pricing-table__body" style="margin-top: 70px;">
                                     <div class="pricing-table__footer">
                                         <a href="#" class="ht-btn ht-btn-md ht-btn--outline">CONTACT</a>
                                     </div>
                                     <ul class="pricing-table__list text-left">
-                                        <li>ALL THE FEATURES +</li>
-                                        <li>1 HOUR QUICK TECH SUPPORT</li>
-                                        <li>IN DEPTH REPORTS</li>
-                                        <li>ADVANCED CHARTS FOR ANALYSIS</li>
-                                        <li>CUSTOM EMAIL NEWSLETTER THEMES</li>
-                                        <li>NEW FEATURES EVERY YEAR</li>
-                                        
+                                        <li>APPOINTMENT</li>
+                                        <li>RECEPTION</li>
+                                        <li>CONSULT</li>
+                                        <li>DIGITAL PRESCRIPTION</li>
+                                        <li>IMAGES MODULE</li>
+                                        <li>PRE-POST COLLAGE GENERATION</li>
+                                        <li>MEDICAL CERTIFICATES</li>
+                                        <li>ADVANCED BILLING</li>
+                                        <li>REPORTS & ANALYTICS</li>
+                                        <li>PROCEDURE MODULE</li>
+                                        <li>PACKAGE MANAGEMENT</li>
+                                        <li>CONSENTS GENERATION</li>
+                                        <li>PHARMACY MODULE</li>
+                                        <li>WALLET FEATURE</li>
+                                        <li>CRM DESK</li>
+                                        <li>CUSTOMIZED EMAIL AND SMS TEMPLATES</li>
+                                        <li>TELE-CONSULTATION</li>
+                                        <li>DATA MIGRATION FROM YOUR EXISTING SOFTWARE</li>
+                                        <li>LABORATORY MODULE</li>
                                     </ul>
                                 </div>
                             </div>
@@ -325,9 +330,9 @@ input:checked + .slider .off
                                         <li>APPOINTMENT</li>
                                         <li>RECEPTION</li>
                                         <li>CONSULT</li>
-                                        <li>E-PRESCRIPTION</li>
+                                        <li>DIGITAL PRESCRIPTION</li>
                                         <li>IMAGES MODULE</li>
-                                        <li>QUICK PRE-POST</li>
+                                        <li>PRE-POST COLLAGE GENERATION</li>
                                         <li>MEDICAL CERTIFICATES</li>
                                         <li>REPORTS & ANALYTICS</li>
                                     </ul>
@@ -339,7 +344,7 @@ input:checked + .slider .off
                                             <i class="fa fa-times" aria-hidden="true"></i> PACKAGE MANAGEMENT
                                         </li>
                                         <li>
-                                            <i class="fa fa-times" aria-hidden="true"></i> CONSENT MODULE
+                                            <i class="fa fa-times" aria-hidden="true"></i> CONSENTS  GENERATION
                                         </li>
                                         <li>
                                             <i class="fa fa-times" aria-hidden="true"></i> LOYALTI CARDS
@@ -381,14 +386,14 @@ input:checked + .slider .off
                                         <li>APPOINTMENT</li>
                                         <li>RECEPTION</li>
                                         <li>CONSULT</li>
-                                        <li>E-PRESCRIPTION</li>
+                                        <li>DIGITAL PRESCRIPTION</li>
                                         <li>IMAGES MODULE</li>
-                                        <li>QUICK PRE-POST</li>
+                                        <li>PRE-POST COLLAGE GENERATION</li>
                                         <li>MEDICAL CERTIFICATES</li>
                                         <li>REPORTS & ANALYTICS</li>
                                         <li>PROCEDURE MODULE</li>
                                         <li>PACKAGE MANAGEMENT</li>
-                                        <li>CONSENT MODULE</li>
+                                        <li>CONSENTS  GENERATION</li>
                                         <li>LOYALTI CARDS</li>
                                         <li>CRM PANEL</li>
                                         <li>LABORATORY</li>

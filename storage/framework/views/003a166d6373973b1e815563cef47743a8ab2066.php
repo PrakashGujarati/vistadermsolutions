@@ -31,11 +31,11 @@ color: #696969;
 
 </style>
 <?php $__env->stopSection(); ?>
-
+ 
 
 <?php $__env->startSection('content'); ?>
 <div class="site-wrapper-reveal">
-        <div class="about-banner-wrap banner-space about-us-bg">
+        <div class="about-banner-wrap banner-space about-us-bg" style=" background-image: url(<?php echo e(asset('assets/images/bg/contact-us-01-hero-bg.jpg')); ?>);">
             <div class="container">
                 <div class="row">
                     <div class="col-lg-8 ml-auto mr-auto">

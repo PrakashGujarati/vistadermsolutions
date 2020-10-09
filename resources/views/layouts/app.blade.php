@@ -11,6 +11,15 @@
         @include('layouts.style')
         @yield('css')
         <style type="text/css" media="screen">
+            .section-space--ptb_80
+            {
+                padding-top:45px;
+                padding-bottom:15px;
+            }
+            .section-space--pb_30 
+            {
+                padding-bottom:1px;
+            }
             
         </style>
 </head>
